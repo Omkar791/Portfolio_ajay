@@ -1,0 +1,10 @@
+/* common css file for all the blogpages */
+
+.BlogpageWrapper{
+    max-width: 960px;
+    margin: auto;
+    padding: 16px;
+    /* background-color: rgb(38, 135, 135); */
+
+    
+}

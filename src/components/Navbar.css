@@ -1,0 +1,163 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap'); */
+
+/* .header{
+    max-width: 960px;
+    height: 90px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+} */
+
+/* .nav-logo{
+
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+} */
+/* 
+ul.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+ul.nav-menu li{
+    list-style-type: none;
+}
+
+ul.nav-menu li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: large;
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+ul.nav-menu li a:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+.nav-hr{
+    max-width: 960px;
+    border-top: 1px solid #30363f;
+    margin: auto;
+}
+
+
+
+ */
+
+
+ /* New code */
+
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #333; */
+    padding: 10px;
+    color: white;
+
+    max-width: 960px;
+    min-height: 90px;
+    margin: auto;
+    padding-left: 16px;
+  }
+
+  .nav-hr{
+    max-width: 960px;
+    border-top: 1px solid #30363f;
+    margin: auto;
+    margin-top: 10px;
+    /* height: 1px; */
+}
+
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-links {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap:32px;
+  
+  }
+  
+  .navbar-links li {
+    margin-left: 20px;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+/* .nav-hr{
+    max-width: 960px;
+    border-top: 1px solid #30363f;
+    margin: auto;
+} */
+  
+  /* Hamburger Menu Styles */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    /* background-color: #333; */
+  }
+  
+  .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      background-color: #181b22;
+    }
+  
+    .navbar-right {
+      margin-top: 10px;
+      /* background-color: #36425b; */
+      width: 50%;
+
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      align-items: center;
+      display: none;
+      margin-top: 20px;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+  
+    .navbar-links li {
+      margin: 10px 0;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  }

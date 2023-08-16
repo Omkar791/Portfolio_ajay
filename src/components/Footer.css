@@ -1,0 +1,44 @@
+ /* .Footer{
+    position: relative;
+    top: 25px;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+}  */
+.footer{
+    margin-top: auto;
+
+}
+
+.social-media{
+    
+    display: flex;
+    max-width: 960px;
+    height: 90px;
+    justify-content: space-between;
+    margin: auto;
+    padding: 16px;
+    align-items: baseline;
+    
+}
+
+.footer-icons{
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+
+
+
+
+/* .social-media img{
+    width: 30px;
+    transition: 0.3s;
+    
+}
+
+.social-media img:hover{
+    width: 35px;
+} */
+
